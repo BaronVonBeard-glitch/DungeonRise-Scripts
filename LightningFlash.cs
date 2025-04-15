@@ -19,7 +19,7 @@ public class LightningFlash : MonoBehaviour
     void Update()
     {
         randomNumGen = Random.Range(0, 100000);
-        if (randomNumGen >= 100)
+        if (randomNumGen >= 30)
         {
             light.enabled = false;
             //Debug.Log("lightning flash active");
