@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         audio = GetComponent<AudioSource>();
-        jump = new Vector3(0, 30, 0);
-        jumpTwo = new Vector3(0, 35, 0);
+        jump = new Vector3(0, 25, 0);
+        jumpTwo = new Vector3(0, 30, 0);
         canJump = false;
         animator = GetComponent<Animator>();
         audio.enabled = false;
