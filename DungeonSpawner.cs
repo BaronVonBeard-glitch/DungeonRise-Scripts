@@ -67,7 +67,7 @@ public class DungeonSpawner : MonoBehaviour
 
         if (collisionTrue)
         {
-            if (randomNumGen > 6 && !Physics.CheckSphere(playerOffsetLeft, spawnCollisionCheckRadius))
+            if (randomNumGen >= 6 && !Physics.CheckSphere(playerOffsetLeft, spawnCollisionCheckRadius))
             {
                 Instantiate(ladderWall, ladderOffset, Quaternion.identity);
                 Instantiate(rightWall, playerOffsetRight, Quaternion.identity);
